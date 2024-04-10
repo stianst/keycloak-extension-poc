@@ -14,7 +14,7 @@ public class MyRealmResourceProvider implements RealmResourceProvider {
     }
 
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     @Path("/")
     public String sayHello() {
         return "Hello!";
